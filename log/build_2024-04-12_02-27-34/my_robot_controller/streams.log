@@ -1,0 +1,25 @@
+[0.523s] Invoking command in '/home/huy/dev_ws/src/my_robot_controller': PYTHONPATH=/home/huy/dev_ws/build/my_robot_controller/prefix_override:/home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/huy/dev_ws/build/my_robot_controller/build install --record /home/huy/dev_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.717s] running egg_info
+[0.718s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.718s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.718s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.718s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.719s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.720s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] copying my_robot_controller/pi_controller.py -> /home/huy/dev_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.720s] running install
+[0.721s] running install_lib
+[0.721s] copying /home/huy/dev_ws/build/my_robot_controller/build/lib/my_robot_controller/pi_controller.py -> /home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.722s] byte-compiling /home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pi_controller.py to pi_controller.cpython-310.pyc
+[0.722s] running install_data
+[0.722s] running install_egg_info
+[0.723s] removing '/home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.724s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.724s] running install_scripts
+[0.739s] Installing arduino_test script to /home/huy/dev_ws/install/my_robot_controller/lib/my_robot_controller
+[0.739s] Installing pi_controller script to /home/huy/dev_ws/install/my_robot_controller/lib/my_robot_controller
+[0.739s] writing list of installed files to '/home/huy/dev_ws/build/my_robot_controller/install.log'
+[0.759s] Invoked command in '/home/huy/dev_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/huy/dev_ws/build/my_robot_controller/prefix_override:/home/huy/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/huy/dev_ws/build/my_robot_controller/build install --record /home/huy/dev_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,193 @@
+[0.208s] Invoking command in '/home/huy/dev_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/services_ws/install/my_services_pkg:/home/huy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/huy/dev_ws/build/my_robot_interface -- -j16 -l16
+[0.229s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.318s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.323s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.548s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.912s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.912s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.926s] -- Configuring done
+[0.949s] -- Generating done
+[0.951s] -- Build files have been written to: /home/huy/dev_ws/build/my_robot_interface
+[0.975s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.984s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.993s] [  6%] Built target ament_cmake_python_symlink_my_robot_interface
+[1.208s] [  6%] Built target my_robot_interface__cpp
+[1.212s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/servo_state__functions.c.o[0m
+[1.221s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.221s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.221s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.263s] running egg_info
+[1.263s] writing my_robot_interface.egg-info/PKG-INFO
+[1.264s] writing dependency_links to my_robot_interface.egg-info/dependency_links.txt
+[1.264s] writing top-level names to my_robot_interface.egg-info/top_level.txt
+[1.264s] [ 22%] [32m[1mLinking C shared library libmy_robot_interface__rosidl_generator_c.so[0m
+[1.266s] reading manifest file 'my_robot_interface.egg-info/SOURCES.txt'
+[1.267s] writing manifest file 'my_robot_interface.egg-info/SOURCES.txt'
+[1.301s] [ 22%] Built target ament_cmake_python_build_my_robot_interface_egg
+[1.313s] [ 22%] Built target my_robot_interface__rosidl_generator_c
+[1.328s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.328s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.328s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.470s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/servo_state__type_support.cpp.o[0m
+[1.493s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/servo_state__type_support.cpp.o[0m
+[1.507s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/servo_state__type_support.cpp.o[0m
+[1.584s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interface/msg/servo_state__type_support.cpp.o[0m
+[1.611s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interface/msg/detail/servo_state__type_support_c.cpp.o[0m
+[1.611s] [ 51%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interface/msg/detail/servo_state__type_support.c.o[0m
+[1.625s] [ 54%] [32m[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_c.so[0m
+[1.655s] [ 58%] [32m[1mLinking C shared library libmy_robot_interface__rosidl_typesupport_introspection_c.so[0m
+[1.680s] [ 58%] Built target my_robot_interface__rosidl_typesupport_c
+[1.698s] [ 58%] Built target my_robot_interface__rosidl_typesupport_introspection_c
+[1.759s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_cpp.so[0m
+[1.808s] [ 61%] Built target my_robot_interface__rosidl_typesupport_cpp
+[1.877s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.900s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.939s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.958s] [ 70%] Built target my_robot_interface__rosidl_typesupport_introspection_cpp
+[1.981s] [ 70%] Built target my_robot_interface__rosidl_typesupport_fastrtps_cpp
+[2.007s] [ 70%] Built target my_robot_interface__rosidl_typesupport_fastrtps_c
+[2.026s] [ 70%] Built target my_robot_interface
+[2.045s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.245s] [ 74%] Built target my_robot_interface__py
+[2.263s] [ 77%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interface/msg/_servo_state_s.c.o[0m
+[2.339s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interface/libmy_robot_interface__rosidl_generator_py.so[0m
+[2.374s] [ 80%] Built target my_robot_interface__rosidl_generator_py
+[2.384s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_c__pyext[0m
+[2.384s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_introspection_c__pyext[0m
+[2.384s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.441s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.441s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.441s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.515s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.515s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.521s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.550s] [100%] Built target my_robot_interface__rosidl_typesupport_c__pyext
+[2.551s] [100%] Built target my_robot_interface__rosidl_typesupport_introspection_c__pyext
+[2.558s] [100%] Built target my_robot_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.569s] Invoked command in '/home/huy/dev_ws/build/my_robot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/services_ws/install/my_services_pkg:/home/huy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/huy/dev_ws/build/my_robot_interface -- -j16 -l16
+[2.642s] Invoking command in '/home/huy/dev_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/services_ws/install/my_services_pkg:/home/huy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/huy/dev_ws/build/my_robot_interface
+[2.649s] -- Install configuration: ""
+[2.650s] -- Execute custom install script
+[2.650s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/ament_index/resource_index/rosidl_interfaces/my_robot_interface
+[2.650s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__functions.h
+[2.650s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__struct.h
+[2.651s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__type_support.h
+[2.651s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__functions.h
+[2.659s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__struct.h
+[2.667s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__type_support.h
+[2.675s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_generator_c__visibility_control.h
+[2.675s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/servo.h
+[2.675s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/servo_state.h
+[2.683s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/library_path.sh
+[2.683s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/library_path.dsv
+[2.683s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__rosidl_typesupport_fastrtps_c.h
+[2.684s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__rosidl_typesupport_fastrtps_c.h
+[2.692s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.693s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__rosidl_typesupport_introspection_c.h
+[2.693s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__rosidl_typesupport_introspection_c.h
+[2.701s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.701s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__builder.hpp
+[2.702s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__struct.hpp
+[2.702s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__traits.hpp
+[2.702s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__builder.hpp
+[2.710s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__struct.hpp
+[2.719s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__traits.hpp
+[2.727s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/servo.hpp
+[2.727s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/servo_state.hpp
+[2.736s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__rosidl_typesupport_fastrtps_cpp.hpp
+[2.736s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.745s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.745s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo__rosidl_typesupport_introspection_cpp.hpp
+[2.745s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/servo_state__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/pythonpath.sh
+[2.754s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/pythonpath.dsv
+[2.754s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.754s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.754s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.754s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/__init__.py
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_c.c
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/libmy_robot_interface__rosidl_generator_py.so
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/__init__.py
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_servo.py
+[2.755s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_servo_s.c
+[2.755s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_servo_state.py
+[2.764s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_servo_state_s.c
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/msg/ServoState.idl
+[2.781s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/msg/ServoState.msg
+[2.789s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/ament_index/resource_index/package_run_dependencies/my_robot_interface
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/ament_index/resource_index/parent_prefix_path/my_robot_interface
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.sh
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.dsv
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/path.sh
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/environment/path.dsv
+[2.790s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/local_setup.bash
+[2.791s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/local_setup.sh
+[2.791s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/local_setup.zsh
+[2.791s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/local_setup.dsv
+[2.791s] -- Symlinking: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/package.dsv
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/ament_index/resource_index/packages/my_robot_interface
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake-extras.cmake
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.799s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.800s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.800s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.800s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig.cmake
+[2.800s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig-version.cmake
+[2.800s] -- Up-to-date symlink: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/package.xml
+[2.800s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_c.so
+[2.800s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_c.so" to ""
+[2.801s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_c.so
+[2.801s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.801s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_c.so
+[2.801s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.801s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_c.so
+[2.802s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_c.so" to ""
+[2.802s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.802s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.802s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_cpp.so
+[2.803s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.803s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_cpp.so
+[2.803s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_cpp.so" to ""
+[2.829s] Listing '/home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface'...
+[2.829s] Compiling '/home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/__init__.py'...
+[2.830s] Listing '/home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg'...
+[2.830s] Compiling '/home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/__init__.py'...
+[2.830s] Compiling '/home/huy/dev_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_servo_state.py'...
+[2.833s] -- Installing: /home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_py.so
+[2.833s] -- Set runtime path of "/home/huy/dev_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_py.so" to ""
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cExport.cmake
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cExport-noconfig.cmake
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.833s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cppExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cppExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_pyExport.cmake
+[2.834s] -- Up-to-date: /home/huy/dev_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.863s] Invoked command in '/home/huy/dev_ws/build/my_robot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/services_ws/install/my_services_pkg:/home/huy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/huy/dev_ws/build/my_robot_interface

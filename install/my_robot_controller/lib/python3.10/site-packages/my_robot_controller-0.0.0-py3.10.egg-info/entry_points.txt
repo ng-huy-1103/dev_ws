@@ -1,0 +1,4 @@
+[console_scripts]
+arduino_test = my_robot_controller.arduino_test:main
+pi_controller = my_robot_controller.pi_controller:main
+

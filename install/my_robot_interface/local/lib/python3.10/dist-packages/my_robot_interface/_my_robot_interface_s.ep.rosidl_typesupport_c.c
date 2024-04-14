@@ -1,0 +1,1 @@
+/home/huy/dev_ws/build/my_robot_interface/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_c.c
